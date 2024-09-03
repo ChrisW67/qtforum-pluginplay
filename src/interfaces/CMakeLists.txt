@@ -1,7 +1,7 @@
 
 set(CMAKE_AUTOMOC ON)
 
-qt_add_library(interfaces STATIC
+qt_add_library(interfaces SHARED
     senderinterface.h
     senderinterface.cpp
     receiverinterface.h

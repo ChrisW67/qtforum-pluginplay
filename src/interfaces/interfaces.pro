@@ -1,5 +1,5 @@
 TEMPLATE = lib
-CONFIG += staticlib
+CONFIG += shared
 TARGET = interfaces
 INCLUDEPATH += .
 
